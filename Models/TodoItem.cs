@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.ComponentModel.DataAnnotations;
 
 namespace AspNetCoreTodo.Models
@@ -12,7 +12,7 @@ namespace AspNetCoreTodo.Models
 
         [Required]
         public String Title { get; set; }
-        
+
         public DateTimeOffset? DueAt { get; set; }
     }
 }
